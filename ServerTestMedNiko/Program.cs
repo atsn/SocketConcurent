@@ -27,15 +27,7 @@ namespace ServerTestMedNiko
                     Echo service = new Echo(myServerTcpconnection);
                     Thread myThread = new Thread(service.Message);
                     myThread.Start();
-
-
-
-
-
-
-                    myServer.Stop();
-
-
+                    
 
                 }
 
